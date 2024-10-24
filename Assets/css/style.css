@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "lexend";
+    src:
+    local("lexend"),
+    url("../fonts/Lexend_standard/lexend_regular.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2F2A85;
+    padding: 3vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav p {
+    font-family: 'lexend';
+    font-size: 24px;
+    color: white;
+}
+
+.titre {
+    font-family: 'lexend';
+    font-size: 24px !important;
+    text-align: center;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.day {
+    width:50vw;
+    min-height: 100vh;
+    background-color: #EFE8DE;
+    display: flex;
+    flex-direction: column;
+}
+
+.night {
+    width:50vw;
+    min-height: 100vh;
+    background-color: #101D25;
+    display: flex;
+    flex-direction: column;
+}
+
+.day .narateur {
+    font-family: 'lexend';
+    font-size: 18px !important;
+    text-align: center;
+    margin: 20px;
+    background-color: #FFF4C4;
+    color: darkslategrey;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.day .date {
+    font-family: 'lexend';
+    font-size: 18px !important;
+    text-align: center;
+    margin: 20px;
+    background-color: #D4EDF4;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.day .citation {
+    font-family: 'lexend';
+    font-size: 16px !important;
+    text-align: left;
+    margin: 20px;
+    background-color: white;
+    align-self: start;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.day .comment {
+    font-family: 'lexend';
+    font-size: 16px !important;
+    text-align: left;
+    margin: 20px;
+    background-color: #E2FFC7;
+    align-self: end;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+
+.night .narateur {
+    font-family: 'lexend';
+    font-size: 18px !important;
+    text-align: center;
+    margin: 20px;
+    background-color: #3D3D3F;
+    color: #FAD965;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.night .date {
+    font-family: 'lexend';
+    font-size: 18px !important;
+    text-align: center;
+    margin: 20px;
+    background-color: #3D3D3F;
+    color: lightgrey;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.night .citation {
+    font-family: 'lexend';
+    font-size: 16px !important;
+    text-align: left;
+    margin: 20px;
+    background-color: #3D3D3F;
+    color: white;
+    align-self: start;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.night .comment {
+    font-family: 'lexend';
+    font-size: 16px !important;
+    text-align: left;
+    margin: 20px;
+    background-color: #0E5147;
+    color: white;
+    align-self: end;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+
+section {
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #2F2A85;
+}
+
+footer p{
+    font-family: 'lexend';
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    font-family: 'lexend';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
